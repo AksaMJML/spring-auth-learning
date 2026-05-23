@@ -1,0 +1,5 @@
+spring :
+  security :
+   user :
+     name : aksa
+     password : aksa@123
