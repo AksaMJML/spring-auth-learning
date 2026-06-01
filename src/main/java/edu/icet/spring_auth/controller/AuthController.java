@@ -11,7 +11,7 @@ public class AuthController {
 
     @GetMapping("/customer")
     public String sayHelloForCustomer(){
-        return "Hello Custoemr";
+        return "Hello Customer";
     }
 
     @GetMapping("/admin")
