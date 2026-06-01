@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
 
     @GetMapping("/customer")
+    @PreAuthorize("hasRole('USER')")
     public String sayHelloForCustomer(){
         return "Hello Customer";
     }
